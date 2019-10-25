@@ -1,0 +1,54 @@
+disp("Kali ini mau buat elips");
+x = input('Masukkan AC elips : ');
+y = input('Masukkan BD elips : ');
+pi = 3.14;
+luaselips       = 0.5 * pi * y * x;
+kelilingelips   = 0.5 * pi + x + y;
+disp("Luas elips = " + luaselips);
+disp("Keliling elips = " + kelilingelips);
+disp(" ");
+
+disp("Kali ini mau buat lingkaran");
+x = input('Masukkan jari-jari : ');
+pi = 3.14;
+luasling       = 2 * pi * x * x;
+kelilingling   = 2 * pi + x;
+disp("Luas lingkaran = " + luasling);
+disp("Keliling lingkaran = " + kelilingling);
+disp(" ");
+
+disp("Kali ini mau buat trapesium");
+x = input('Masukkan sisi atas : (hrs lebih kecil dr sisi bawah)');
+y = input('Masukkan tinggi : ');
+z = input('Masukkan sisi bawah : ');
+luastrap = 0.5 * x * y;
+sisasisisejajar = x-y;
+sisasisisejajarkuadrat = sisasisisejajar*sisasisisejajar;
+tinggikuadrat = tinggi*tinggi;
+pitagoras = sqrt(sisasisikuadrat + tinggikuadrat);
+kelilingtrap = x + y + z + pitagoras;
+disp("Luas trapesium = " + luastrap);
+disp("Keliling trapesium = " + kelilingtrap);
+disp(" ");
+
+disp("Kali ini mau buat belah ketupat");
+x = input('Masukkan sisi alas : ');
+y = input('Masukkan tinggi : ');
+luasbelah = x * y;
+kelilingbelah = 2*x + 2*y ;
+disp("Luas belah ketupat = " + luasbelah);
+disp("Keliling belah ketupat = " + kelilingbelah);
+disp(" ");
+
+disp("Kali ini mau buat layang-layang");
+x = input('Masukkan sisi a : ');
+y = input('Masukkan sisi b : ');
+z = input('Masukkan sisi c : ');
+w = input('Masukkan sisi d : ');
+d1 = sqrt(x*x + y*y);
+d2 = sqrt(z*z +w*w);
+luaslayang = 0.5 * d1 * d2;
+kelilinglayang = x + y + z + w;
+disp("Luas layang-layang = " + luaslayang);
+disp("Keliling layang-layang = " + kelilinglayang);
+disp(" ");
