@@ -1,0 +1,13 @@
+disp("Kali ini mau buat trapesium");
+x = input('Masukkan sisi atas : (hrs lebih kecil dr sisi bawah)');
+y = input('Masukkan tinggi : ');
+z = input('Masukkan sisi bawah : ');
+luastrap = 0.5 * x * y;
+sisasisisejajar = x-y;
+sisasisisejajarkuadrat = sisasisisejajar*sisasisisejajar;
+tinggikuadrat = y*y;
+pitagoras = sqrt(sisasisisejajarkuadrat + tinggikuadrat);
+kelilingtrap = x + y + z + pitagoras;
+disp("Luas trapesium = " + luastrap);
+disp("Keliling trapesium = " + kelilingtrap);
+disp(" ");
