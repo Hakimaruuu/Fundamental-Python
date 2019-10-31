@@ -1,0 +1,12 @@
+disp("Kali ini mau buat layang-layang");
+x = input('Masukkan sisi a : ');
+y = input('Masukkan sisi b : ');
+z = input('Masukkan sisi c : ');
+w = input('Masukkan sisi d : ');
+d1 = sqrt(x*x + y*y);
+d2 = sqrt(z*z +w*w);
+luaslayang = 0.5 * d1 * d2;
+kelilinglayang = x + y + z + w;
+disp("Luas layang-layang = " + luaslayang);
+disp("Keliling layang-layang = " + kelilinglayang);
+disp(" ");
